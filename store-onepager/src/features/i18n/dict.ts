@@ -15,7 +15,7 @@ export const I18N: Record<Lang, Dict> = {
 
         "hero.sliderLabel": "Bildspel",
         "hero.title": "Snabbt. Rent. Tryggt.",
-        "hero.subtitle": "Drop-in biltvätt i Partille. Skonsam tvätt, proffsiga produkter och snabb service.",
+        "hero.subtitle": "Drop-in biltvätt i Torslanda. Skonsam tvätt, proffsiga produkter och snabb service.",
         "hero.ctaDirections": "Hitta hit",
         "hero.ctaCall": "Ring & boka",
 
@@ -199,7 +199,7 @@ export const I18N: Record<Lang, Dict> = {
 
         "hero.sliderLabel": "Slideshow",
         "hero.title": "Fast. Clean. Safe.",
-        "hero.subtitle": "Drop-in car wash in Partille. Gentle wash, premium products, fast service.",
+        "hero.subtitle": "Drop-in car wash in Torslanda. Gentle wash, premium products, fast service.",
         "hero.ctaDirections": "Find us",
         "hero.ctaCall": "Call & book",
 

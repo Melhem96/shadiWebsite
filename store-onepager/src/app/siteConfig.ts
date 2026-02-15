@@ -12,13 +12,13 @@ export function getSiteConfig(): SiteConfig {
         phonePretty: (env.VITE_PHONE_PRETTY as string) || formatPhonePretty(phoneE164),
         emailPublic: (env.VITE_EMAIL_PUBLIC as string) || "info@store.se",
         instagramHandle: (env.VITE_INSTAGRAM_HANDLE as string) || "@store",
-        addressLine: (env.VITE_ADDRESS_LINE as string) || "Gamla Kronvägen 19D, 433 33 Partille",
+        addressLine: (env.VITE_ADDRESS_LINE as string) || "Gamla Flygplatsvägen 10, 423 37 Torslanda",
         gmapsQ:
             (env.VITE_GMAPS_Q as string) ||
-            "https://www.google.com/maps?q=Gamla%20Kronv%C3%A4gen%2019D%2C%20433%2033%20Partille",
+            "https://maps.app.goo.gl/4g7cRCaZffvWtQRH8",
         gmapsEmbed:
             (env.VITE_GMAPS_EMBED as string) ||
-            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.7366490060294!2d12.108310676821365!3d57.74012907388406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff68c6212ffff%3A0xfbe1f2a208a4e07e!2sGamla%20Kronv%C3%A4gen%2019D%2C%20433%2033%20Partille%2C%20Sverige!5e1!3m2!1ssv!2sus!4v1767384455129!5m2!1ssv!2sus",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.4191844361378!2d11.78014767681938!3d57.71179627387179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464f8c1fcd8e5ad7%3A0xcef4eadf1edb33b!2sGamla%20Flygplatsv%C3%A4gen%2010%2C%20423%2037%20Torslanda%2C%20Sverige!5e1!3m2!1ssv!2sus!4v1771194095977!5m2!1ssv!2sus",
         googleSheetContactUrl: (env.VITE_GOOGLE_SHEET_CONTACT_URL as string) || "",
         openingHours: {
             monFri: (env.VITE_HOURS_MON_FRI as string) || "10–19",

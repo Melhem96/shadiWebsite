@@ -47,10 +47,10 @@ export default defineConfig(({ mode }) => {
   const siteName = env.VITE_SITE_NAME || "FirstClassTvätt";
   const emailPublic = env.VITE_EMAIL_PUBLIC || "info@store.se";
   const phoneE164 = env.VITE_PHONE_E164 || "+46701234567";
-  const addressLine = env.VITE_ADDRESS_LINE || "Gamla Kronvägen 19D, 433 33 Partille";
+  const addressLine = env.VITE_ADDRESS_LINE || "Gamla Flygplatsvägen 10, 423 37 Torslanda";
   const gmapsQ =
     env.VITE_GMAPS_Q ||
-    "https://www.google.com/maps?q=Gamla%20Kronv%C3%A4gen%2019D%2C%20433%2033%20Partille";
+    "https://maps.app.goo.gl/4g7cRCaZffvWtQRH8";
 
   // For GitHub Pages: set base to repo name if deploying to username.github.io/repo-name
   // For custom domain or username.github.io, use '/'
@@ -96,16 +96,16 @@ export default defineConfig(({ mode }) => {
           html = replaceFirst(
             html,
             /(<title>)([\s\S]*?)(<\/title>)/,
-            `$1${escapeHtml(siteName)} – Biltvätt i Partille$3`,
+            `$1${escapeHtml(siteName)} – Biltvätt i Torslanda$3`,
           );
 
           html = html.replace(
             /(<meta\s+property="og:title"\s+content=")([^"]*)("\s*\/?>)/,
-            `$1${escapeAttr(`${siteName} – Biltvätt i Partille`)}$3`,
+            `$1${escapeAttr(`${siteName} – Biltvätt i Torslanda`)}$3`,
           );
           html = html.replace(
             /(<meta\s+property="og:image:alt"\s+content=")([^"]*)("\s*\/?>)/,
-            `$1${escapeAttr(`${siteName} – Biltvätt i Partille`)}$3`,
+            `$1${escapeAttr(`${siteName} – Biltvätt i Torslanda`)}$3`,
           );
 
           // 3) Phone links: update only anchors marked with data-phone

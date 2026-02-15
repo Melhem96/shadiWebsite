@@ -25,7 +25,7 @@ Copy `.env.template` to `.env.local` and customize:
 | `VITE_PHONE_PRETTY` | Display format (optional) | `+46 70 123 45 67` |
 | `VITE_EMAIL_PUBLIC` | Public email address | `info@firstclasstvatt.se` |
 | `VITE_INSTAGRAM_HANDLE` | Instagram handle | `@firstclasstvatt` |
-| `VITE_ADDRESS_LINE` | Physical address | `Gamla Kronvägen 19D, 433 33 Partille` |
+| `VITE_ADDRESS_LINE` | Physical address | `Gamla Flygplatsvägen 10, 423 37 Torslanda` |
 | `VITE_GMAPS_Q` | Google Maps link URL | `https://www.google.com/maps?q=...` |
 | `VITE_GMAPS_EMBED` | Google Maps embed URL | `https://www.google.com/maps/embed?pb=...` |
 | `VITE_HOURS_MON_FRI` | Mon-Fri opening hours | `10–19` |
