@@ -16,7 +16,6 @@
         "titleKey": "sections.packages.wash1.title",
         "subtitleKey": "sections.packages.wash1.subtitle",
         "price": "250 kr",
-        "time": "25 min",
         "listKeys": [
           "sections.packages.wash1.li1",
           "sections.packages.wash1.li2",
@@ -33,7 +32,6 @@
         "titleKey": "sections.packages.wash2.title",
         "subtitleKey": "sections.packages.wash2.subtitle",
         "price": "350 kr",
-        "time": "35 min",
         "listKeys": [
           "sections.packages.wash2.li1",
           "sections.packages.wash2.li2",
@@ -51,7 +49,6 @@
         "titleKey": "sections.packages.wash3.title",
         "subtitleKey": "sections.packages.wash3.subtitle",
         "price": "400 kr",
-        "time": "40 min",
         "listKeys": [
           "sections.packages.wash3.li1",
           "sections.packages.wash3.li2",
@@ -66,7 +63,6 @@
         "titleKey": "sections.packages.wash4.title",
         "subtitleKey": "sections.packages.wash4.subtitle",
         "price": "500 kr",
-        "time": "50 min",
         "listKeys": [
           "sections.packages.wash4.li1",
           "sections.packages.wash4.li2",
@@ -91,7 +87,6 @@
         "titleKey": "sections.tires.change.title",
         "subtitleKey": "sections.tires.change.subtitle",
         "price": "400 kr",
-        "time": "20 min",
         "listKeys": [
           "sections.tires.change.li1",
           "sections.tires.change.li2"
@@ -103,7 +98,6 @@
         "titleKey": "sections.tires.hotel.title",
         "subtitleKey": "sections.tires.hotel.subtitle",
         "price": "600 kr",
-        "time": "",
         "listKeys": [
           "sections.tires.hotel.li1"
         ],
@@ -148,7 +142,6 @@
         "titleKey": "sections.rekond.pkg1.title",
         "subtitleKey": "sections.rekond.pkg1.subtitle",
         "price": "1 990 kr",
-        "time": "3–4 timmar",
         "listKeys": [
           "sections.rekond.pkg1.li1",
           "sections.rekond.pkg1.li2",
@@ -166,7 +159,6 @@
         "titleKey": "sections.rekond.pkg2.title",
         "subtitleKey": "sections.rekond.pkg2.subtitle",
         "price": "2 490 kr",
-        "time": "5–6 timmar",
         "listKeys": [
           "sections.rekond.pkg2.li1",
           "sections.rekond.pkg2.li2",
@@ -186,7 +178,6 @@
         "titleKey": "sections.rekond.pkg3.title",
         "subtitleKey": "sections.rekond.pkg3.subtitle",
         "price": "3 490 kr",
-        "time": "1–2 dagar",
         "listKeys": [
           "sections.rekond.pkg3.li1",
           "sections.rekond.pkg3.li2",
