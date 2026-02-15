@@ -65,7 +65,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "store-onepager/dist"
+          path: ${{ github.workspace }}/store-onepager/dist
 
   # Deployment job
   deploy:
