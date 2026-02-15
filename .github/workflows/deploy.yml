@@ -53,10 +53,19 @@ jobs:
           # This automatically handles both username.github.io and project sites
           VITE_BASE_PATH: ${{ steps.pages.outputs.base_path }}/
 
+      - name: Debug - Verify dist contents
+        run: |
+          echo "PWD: $(pwd)"
+          echo "=== dist contents ==="
+          ls -la dist/
+          echo "=== index.html head ==="
+          head -5 dist/index.html
+        working-directory: ./store-onepager
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./store-onepager/dist"
+          path: "store-onepager/dist"
 
   # Deployment job
   deploy:
