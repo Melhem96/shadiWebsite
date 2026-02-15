@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="sv">
+<head>
+    <!--#include file="src/partials/head.meta.html" -->
+</head>
+<body>
+<!--#include file="src/partials/header.html" -->
+
+<main id="top">
+    <section class="heroSlider" aria-label="Bildspel" data-i18n-attr="aria-label:hero.sliderLabel">
+        <div class="heroSlides" data-hero-slides>
+            <img class="heroSlide is-active" src="/images/1.jpg" alt="Biltvätt och polering" decoding="async" fetchpriority="high"/>
+            <img class="heroSlide" src="/images/2.jpg" alt="Ren bil efter tvätt" loading="lazy" decoding="async"/>
+            <img class="heroSlide" src="/images/3.jpg" alt="Invändig rengöring" loading="lazy" decoding="async"/>
+            <img class="heroSlide" src="/images/4.jpg" alt="Skumtvätt" loading="lazy" decoding="async"/>
+        </div>
+
+        <div class="heroContent">
+            <div class="container">
+                <h1 data-i18n="hero.title">Snabbt. Rent. Tryggt.</h1>
+                <p data-i18n="hero.subtitle">Drop-in biltvätt i Partille. Skonsam tvätt, proffsiga produkter och snabb service.</p>
+                <div class="ctaRow">
+                    <a class="btn" href="#location" data-i18n="hero.ctaDirections">Hitta hit</a>
+                    <a class="btn secondary" href="tel:+46701234567" data-phone data-i18n="hero.ctaCall">Ring & boka</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 data-i18n="sections.services.title">Tjänster</h2>
+            </div>
+            <p data-i18n="sections.services.lead">Välj en snabb utvändig tvätt eller en komplett behandling med invändig städning.</p>
+            <div class="cards cards--4">
+                <div class="card"><h3 data-i18n="sections.services.card1Title">Utvändig tvätt</h3>
+                    <p data-i18n="sections.services.card1Body">Handtvätt, avfettning, fälgtvätt och finish.</p></div>
+                <div class="card"><h3 data-i18n="sections.services.card2Title">Invändig städ</h3>
+                    <p data-i18n="sections.services.card2Body">Dammsugning, panelrengöring och fräsch doft.</p></div>
+                <div class="card"><h3 data-i18n="sections.services.card3Title">Polering & rekond</h3>
+                    <p data-i18n="sections.services.card3Body">Extra glans, skydd och djuprengöring.</p></div>
+                <div class="card"><h3 data-i18n="sections.services.card4Title">Däckservice</h3>
+                    <p data-i18n="sections.services.card4Body">Däckbyte, tryckkontroll och däckhotell.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="section">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 data-i18n="sections.packages.title">Tvättpaket & priser</h2>
+            </div>
+            <p class="tagline" data-i18n="sections.packages.tagline">Snabbt. Rent. Tryggt.</p>
+            <p data-i18n="sections.packages.lead">Transparenta priser och snabb service. Boka via telefon eller kom förbi på drop-in.</p>
+
+            <div class="pricing" data-pricing></div>
+
+            <p class="muted finePrint" data-i18n="sections.packages.finePrint">* Priser kan variera för stora fordon och extra smutsiga bilar.</p>
+        </div>
+    </section>
+
+    <section id="tires" class="section">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 data-i18n="sections.tires.title">Däckservice</h2>
+            </div>
+            <p data-i18n="sections.tires.lead">Professionell däckservice med förvaring och byte.</p>
+
+            <div class="tireServices" data-tires></div>
+        </div>
+    </section>
+
+    <section id="rekond" class="section">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 data-i18n="sections.rekond.title">Rekond & polering</h2>
+            </div>
+            <p data-i18n="sections.rekond.lead">Professionell rekond för maximal glans och skydd.</p>
+
+            <div class="rekondServices" data-rekond></div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="sectionHeader">
+                <h2 data-i18n="sections.gallery.title">Bilder</h2>
+
+                <div class="carouselControls">
+                    <button class="iconBtn" type="button" data-carousel-prev aria-label="Föregående bild" aria-controls="galleryCarousel" data-i18n-attr="aria-label:sections.gallery.prev">
+                        ‹
+                    </button>
+                    <button class="iconBtn" type="button" data-carousel-next aria-label="Nästa bild" aria-controls="galleryCarousel" data-i18n-attr="aria-label:sections.gallery.next">
+                        ›
+                    </button>
+                </div>
+            </div>
+
+            <div class="carouselWrap">
+                <ul class="carousel" id="galleryCarousel" aria-label="Bildgalleri" tabindex="0" data-i18n-attr="aria-label:sections.gallery.aria">
+                    <li class="slide">
+                        <img src="/images/1.jpg" alt="Biltvätt och polering" loading="lazy" decoding="async"/>
+                    </li>
+                    <li class="slide">
+                        <img src="/images/2.jpg" alt="Ren bil efter tvätt" loading="lazy" decoding="async"/>
+                    </li>
+                    <li class="slide">
+                        <img src="/images/3.jpg" alt="Invändig rengöring" loading="lazy" decoding="async"/>
+                    </li>
+                    <li class="slide">
+                        <img src="/images/4.jpg" alt="Skumtvätt" loading="lazy" decoding="async"/>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="hours" class="section">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 data-i18n="sections.hours.title">Öppettider</h2>
+            </div>
+            <ul class="hours">
+                <li><span data-i18n="sections.hours.monFri">Mån–Fre</span><span data-hours-monfri>10–19</span></li>
+                <li><span data-i18n="sections.hours.sat">Lör</span><span data-hours-sat>11–16</span></li>
+                <li><span data-i18n="sections.hours.sun">Sön</span><span data-hours-sun>11–16</span></li>
+            </ul>
+            <p class="muted" data-i18n="sections.hours.note">Helgdagar kan avvika. Vid kö kan väntetid förekomma.</p>
+        </div>
+    </section>
+
+    <section id="location" class="section">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 data-i18n="sections.location.title">Hitta hit</h2>
+            </div>
+            <p data-address>Gamla Kronvägen 19D, 433 33 Partille</p>
+
+            <div class="mapWrap">
+                <iframe
+                        title="Karta till FirstClassTvätt"
+                        data-i18n-attr="title:sections.location.mapTitle"
+                        data-gmaps-embed
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.7366490060294!2d12.108310676821365!3d57.74012907388406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff68c6212ffff%3A0xfbe1f2a208a4e07e!2sGamla%20Kronv%C3%A4gen%2019D%2C%20433%2033%20Partille%2C%20Sverige!5e1!3m2!1ssv!2sus!4v1767384455129!5m2!1ssv!2sus"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen
+                ></iframe>
+            </div>
+
+            <div class="ctaRow ctaRow--spaced">
+                <a class="btn" target="_blank" rel="noreferrer" data-gmaps
+                   href="https://www.google.com/maps?q=Gamla%20Kronv%C3%A4gen%2019D%2C%20433%2033%20Partille" data-i18n="sections.location.openMaps">
+                    Öppna i Google Maps
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="sectionTitle">
+                <h2 data-i18n="sections.contact.title">Kontakt</h2>
+            </div>
+            <div class="contactGrid">
+                <div>
+                    <p><strong data-i18n="sections.contact.phone">Telefon:</strong> <a href="tel:+46701234567" data-phone>+46 70 123 45 67</a></p>
+                    <p><strong data-i18n="sections.contact.email">Email:</strong> <a href="mailto:info@store.se" data-email>info@store.se</a></p>
+                    <p><strong data-i18n="sections.contact.instagram">Instagram:</strong> <a href="https://instagram.com/..." target="_blank" rel="noreferrer" data-instagram>@store</a></p>
+                    <p class="muted" data-i18n="sections.contact.note">Skriv gärna in registreringsnummer så hjälper vi dig snabbare.</p>
+                </div>
+
+                <!-- Optional contact form -->
+                <form class="form" name="contact" method="POST" data-contact-form>
+                    <p class="srOnly">
+                        <label>Don’t fill this out: <input name="bot-field"/></label>
+                    </p>
+
+                    <div class="field">
+                        <label for="name" data-i18n="form.name">Namn</label>
+                        <input id="name" name="name" autocomplete="name" required/>
+                    </div>
+
+                    <div class="field">
+                        <label for="mobile" data-i18n="form.mobile">Mobil</label>
+                        <input id="mobile" name="mobile" type="tel" autocomplete="tel" required/>
+                    </div>
+
+                    <div class="field">
+                        <label for="email" data-i18n="form.email">Email</label>
+                        <input id="email" name="email" type="email" autocomplete="email" required/>
+                    </div>
+
+                    <div class="field">
+                        <label for="service" data-i18n="form.service">Tjänst</label>
+                        <input id="service" name="service" autocomplete="off" required/>
+                    </div>
+
+                    <div class="field">
+                        <label for="plate" data-i18n="form.plate">Registreringsnummer</label>
+                        <input id="plate" name="plate" autocomplete="off" required/>
+                    </div>
+
+                    <button class="btn" type="submit" data-i18n="form.submit">Skicka</button>
+                    <p class="muted formNote" data-i18n="form.note">Vi svarar normalt samma dag.</p>
+                    <p class="formStatus" aria-live="polite" hidden></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--#include file="src/partials/footer.html" -->
+</main>
+
+</body>
+</html>

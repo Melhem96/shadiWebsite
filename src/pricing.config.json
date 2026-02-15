@@ -1,0 +1,207 @@
+{
+  "tagline": "sections.packages.tagline",
+  "discount": {
+    "enabled": true,
+    "badgeKey": "sections.packages.discount.badge",
+    "textKey": "sections.packages.discount.text",
+    "noteKey": "sections.packages.discount.note"
+  },
+  "washPackages": {
+    "sectionKey": "sections.packages.wash.section",
+    "badgeKey": "sections.packages.badge",
+    "cards": [
+      {
+        "id": "wash1",
+        "featured": false,
+        "titleKey": "sections.packages.wash1.title",
+        "subtitleKey": "sections.packages.wash1.subtitle",
+        "price": "250 kr",
+        "time": "25 min",
+        "listKeys": [
+          "sections.packages.wash1.li1",
+          "sections.packages.wash1.li2",
+          "sections.packages.wash1.li3",
+          "sections.packages.wash1.li4",
+          "sections.packages.wash1.li5"
+        ],
+        "cta": { "href": "tel:{phone}", "class": "btn", "labelKey": "sections.packages.ctaCall" }
+      },
+      {
+        "id": "wash2",
+        "featured": true,
+        "badgeKey": "sections.packages.badge",
+        "titleKey": "sections.packages.wash2.title",
+        "subtitleKey": "sections.packages.wash2.subtitle",
+        "price": "350 kr",
+        "time": "35 min",
+        "listKeys": [
+          "sections.packages.wash2.li1",
+          "sections.packages.wash2.li2",
+          "sections.packages.wash2.li3",
+          "sections.packages.wash2.li4",
+          "sections.packages.wash2.li5",
+          "sections.packages.wash2.li6",
+          "sections.packages.wash2.li7"
+        ],
+        "cta": { "href": "tel:{phone}", "class": "btn", "labelKey": "sections.packages.ctaCall" }
+      },
+      {
+        "id": "wash3",
+        "featured": false,
+        "titleKey": "sections.packages.wash3.title",
+        "subtitleKey": "sections.packages.wash3.subtitle",
+        "price": "400 kr",
+        "time": "40 min",
+        "listKeys": [
+          "sections.packages.wash3.li1",
+          "sections.packages.wash3.li2",
+          "sections.packages.wash3.li3",
+          "sections.packages.wash3.li4"
+        ],
+        "cta": { "href": "tel:{phone}", "class": "btn", "labelKey": "sections.packages.ctaCall" }
+      },
+      {
+        "id": "wash4",
+        "featured": false,
+        "titleKey": "sections.packages.wash4.title",
+        "subtitleKey": "sections.packages.wash4.subtitle",
+        "price": "500 kr",
+        "time": "50 min",
+        "listKeys": [
+          "sections.packages.wash4.li1",
+          "sections.packages.wash4.li2",
+          "sections.packages.wash4.li3"
+        ],
+        "cta": { "href": "tel:{phone}", "class": "btn", "labelKey": "sections.packages.ctaCall" }
+      }
+    ]
+  },
+  "addons": [
+    {
+      "id": "rustRemoval",
+      "titleKey": "sections.packages.addon.rust.title",
+      "price": "300 kr"
+    }
+  ],
+  "tireServices": {
+    "sectionKey": "sections.tires.section",
+    "cards": [
+      {
+        "id": "tireChange",
+        "titleKey": "sections.tires.change.title",
+        "subtitleKey": "sections.tires.change.subtitle",
+        "price": "400 kr",
+        "time": "20 min",
+        "listKeys": [
+          "sections.tires.change.li1",
+          "sections.tires.change.li2"
+        ],
+        "cta": { "href": "tel:{phone}", "class": "btn", "labelKey": "sections.packages.ctaCall" }
+      },
+      {
+        "id": "tireHotel",
+        "titleKey": "sections.tires.hotel.title",
+        "subtitleKey": "sections.tires.hotel.subtitle",
+        "price": "600 kr",
+        "time": "",
+        "listKeys": [
+          "sections.tires.hotel.li1"
+        ],
+        "cta": { "href": "tel:{phone}", "class": "btn", "labelKey": "sections.packages.ctaCall" }
+      },
+      {
+        "id": "tireCombo",
+        "featured": true,
+        "badgeKey": "sections.packages.badge",
+        "titleKey": "sections.tires.combo.title",
+        "subtitleKey": "sections.tires.combo.subtitle",
+        "price": "1 200 kr",
+        "priceNote": "sections.tires.combo.priceNote",
+        "listKeys": [
+          "sections.tires.combo.li1",
+          "sections.tires.combo.li2",
+          "sections.tires.combo.li3",
+          "sections.tires.combo.li4"
+        ],
+        "cta": { "href": "tel:{phone}", "class": "btn", "labelKey": "sections.packages.ctaCall" }
+      },
+      {
+        "id": "tireYear",
+        "titleKey": "sections.tires.year.title",
+        "subtitleKey": "sections.tires.year.subtitle",
+        "price": "3 800 kr",
+        "priceNote": "sections.tires.year.priceNote",
+        "listKeys": [
+          "sections.tires.year.li1",
+          "sections.tires.year.li2"
+        ],
+        "cta": { "href": "tel:{phone}", "class": "btn", "labelKey": "sections.packages.ctaCall" }
+      }
+    ]
+  },
+  "rekondServices": {
+    "sectionKey": "sections.rekond.section",
+    "disclaimerKey": "sections.rekond.disclaimer",
+    "cards": [
+      {
+        "id": "rekond1",
+        "titleKey": "sections.rekond.pkg1.title",
+        "subtitleKey": "sections.rekond.pkg1.subtitle",
+        "price": "1 990 kr",
+        "time": "3–4 timmar",
+        "listKeys": [
+          "sections.rekond.pkg1.li1",
+          "sections.rekond.pkg1.li2",
+          "sections.rekond.pkg1.li3",
+          "sections.rekond.pkg1.li4",
+          "sections.rekond.pkg1.li5",
+          "sections.rekond.pkg1.li6"
+        ],
+        "cta": { "href": "tel:{phone}", "class": "btn", "labelKey": "sections.packages.ctaCall" }
+      },
+      {
+        "id": "rekond2",
+        "featured": true,
+        "badgeKey": "sections.packages.badge",
+        "titleKey": "sections.rekond.pkg2.title",
+        "subtitleKey": "sections.rekond.pkg2.subtitle",
+        "price": "2 490 kr",
+        "time": "5–6 timmar",
+        "listKeys": [
+          "sections.rekond.pkg2.li1",
+          "sections.rekond.pkg2.li2",
+          "sections.rekond.pkg2.li3",
+          "sections.rekond.pkg2.li4",
+          "sections.rekond.pkg2.li5",
+          "sections.rekond.pkg2.li6",
+          "sections.rekond.pkg2.li7",
+          "sections.rekond.pkg2.li8",
+          "sections.rekond.pkg2.li9",
+          "sections.rekond.pkg2.li10"
+        ],
+        "cta": { "href": "tel:{phone}", "class": "btn", "labelKey": "sections.packages.ctaCall" }
+      },
+      {
+        "id": "rekond3",
+        "titleKey": "sections.rekond.pkg3.title",
+        "subtitleKey": "sections.rekond.pkg3.subtitle",
+        "price": "3 490 kr",
+        "time": "1–2 dagar",
+        "listKeys": [
+          "sections.rekond.pkg3.li1",
+          "sections.rekond.pkg3.li2",
+          "sections.rekond.pkg3.li3",
+          "sections.rekond.pkg3.li4",
+          "sections.rekond.pkg3.li5",
+          "sections.rekond.pkg3.li6",
+          "sections.rekond.pkg3.li7",
+          "sections.rekond.pkg3.li8",
+          "sections.rekond.pkg3.li9",
+          "sections.rekond.pkg3.li10",
+          "sections.rekond.pkg3.li11"
+        ],
+        "cta": { "href": "tel:{phone}", "class": "btn", "labelKey": "sections.packages.ctaCall" }
+      }
+    ]
+  }
+}
