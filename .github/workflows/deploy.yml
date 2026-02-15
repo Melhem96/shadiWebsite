@@ -47,6 +47,15 @@ jobs:
         env:
           NODE_ENV: development
 
+      - name: Debug - List installed binaries
+        run: |
+          echo "=== node_modules/.bin contents ==="
+          ls -la node_modules/.bin/ || echo "No .bin directory"
+          echo "=== Check vite ==="
+          ls -la node_modules/vite/ || echo "No vite directory"
+          echo "=== npm bin ==="
+          npm bin
+
       - name: Build
         run: npm run build
         env:
