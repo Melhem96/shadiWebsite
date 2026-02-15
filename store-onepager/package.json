@@ -7,9 +7,9 @@
     "node": "^20.19.0 || >=22.12.0"
   },
   "scripts": {
-    "dev": "npx vite",
-    "build": "npx tsc && npx vite build",
-    "preview": "npx vite preview"
+    "dev": "./node_modules/.bin/vite",
+    "build": "./node_modules/.bin/tsc && ./node_modules/.bin/vite build",
+    "preview": "./node_modules/.bin/vite preview"
   },
   "devDependencies": {
     "typescript": "~5.9.3",
