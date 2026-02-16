@@ -10,7 +10,7 @@ export function getSiteConfig(): SiteConfig {
         siteName: (env.VITE_SITE_NAME as string) || "FirstClassTvätt",
         phoneE164,
         phonePretty: (env.VITE_PHONE_PRETTY as string) || formatPhonePretty(phoneE164),
-        emailPublic: (env.VITE_EMAIL_PUBLIC as string) || "info@store.se",
+        emailPublic: (env.VITE_EMAIL_PUBLIC as string) || "firstklasswash@gmail.com",
         instagramHandle: (env.VITE_INSTAGRAM_HANDLE as string) || "@store",
         addressLine: (env.VITE_ADDRESS_LINE as string) || "Gamla Flygplatsvägen 10, 423 37 Torslanda",
         gmapsQ:
@@ -22,8 +22,8 @@ export function getSiteConfig(): SiteConfig {
         googleSheetContactUrl: (env.VITE_GOOGLE_SHEET_CONTACT_URL as string) || "",
         openingHours: {
             monFri: (env.VITE_HOURS_MON_FRI as string) || "10–19",
-            sat: (env.VITE_HOURS_SAT as string) || "11–16",
-            sun: (env.VITE_HOURS_SUN as string) || "11–16",
+            sat: (env.VITE_HOURS_SAT as string) || "10–17",
+            sun: (env.VITE_HOURS_SUN as string) || "10–17",
         },
     };
 }

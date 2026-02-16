@@ -41,7 +41,7 @@ export const I18N: Record<Lang, Dict> = {
         "sections.packages.wash.section": "Tvättpaket",
 
         "sections.packages.discount.badge": "–20%",
-        "sections.packages.discount.text": "Öppningsrabatt: –20% på alla tvättpaket!",
+        "sections.packages.discount.text": "Öppningsrabatt: –20% på första tvätten!",
         "sections.packages.discount.note": "Tidsbegränsat: 1 månad",
 
         "sections.packages.wash1.title": "Utvändig Bas",
@@ -225,7 +225,7 @@ export const I18N: Record<Lang, Dict> = {
         "sections.packages.wash.section": "Wash packages",
 
         "sections.packages.discount.badge": "–20%",
-        "sections.packages.discount.text": "Opening discount: –20% on all wash packages!",
+        "sections.packages.discount.text": "Opening discount: –20% on the first wash!",
         "sections.packages.discount.note": "Limited time: 1 month",
 
         "sections.packages.wash1.title": "Exterior Basic",

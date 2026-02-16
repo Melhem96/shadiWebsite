@@ -15,7 +15,7 @@
         "featured": false,
         "titleKey": "sections.packages.wash1.title",
         "subtitleKey": "sections.packages.wash1.subtitle",
-        "price": "250 kr",
+        "price": "249 kr",
         "listKeys": [
           "sections.packages.wash1.li1",
           "sections.packages.wash1.li2",
@@ -31,7 +31,7 @@
         "badgeKey": "sections.packages.badge",
         "titleKey": "sections.packages.wash2.title",
         "subtitleKey": "sections.packages.wash2.subtitle",
-        "price": "350 kr",
+        "price": "349 kr",
         "listKeys": [
           "sections.packages.wash2.li1",
           "sections.packages.wash2.li2",
@@ -48,7 +48,7 @@
         "featured": false,
         "titleKey": "sections.packages.wash3.title",
         "subtitleKey": "sections.packages.wash3.subtitle",
-        "price": "400 kr",
+        "price": "449 kr",
         "listKeys": [
           "sections.packages.wash3.li1",
           "sections.packages.wash3.li2",
@@ -72,13 +72,7 @@
       }
     ]
   },
-  "addons": [
-    {
-      "id": "rustRemoval",
-      "titleKey": "sections.packages.addon.rust.title",
-      "price": "300 kr"
-    }
-  ],
+  "addons": [],
   "tireServices": {
     "sectionKey": "sections.tires.section",
     "cards": [

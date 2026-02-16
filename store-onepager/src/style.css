@@ -51,30 +51,33 @@
 
 /* Light theme overrides */
 html[data-theme="light"] {
-    --bg: #f8fbff;
-    --bg-elev: rgba(255, 255, 255, 0.72);
-    --bg-elev-strong: rgba(255, 255, 255, 0.92);
+    --bg: #e8e4dc;
+    --bg-elev: rgba(235, 231, 222, 0.90);
+    --bg-elev-strong: rgba(235, 231, 222, 0.97);
 
-    --page-grad-1: rgba(25, 167, 255, 0.14);
-    --page-grad-2: rgba(34, 230, 209, 0.10);
-    --page-grad-3a: #e8f0fa;
-    --page-grad-3b: #f7fbff;
+    --page-grad-1: rgba(25, 140, 200, 0.08);
+    --page-grad-2: rgba(34, 180, 165, 0.06);
+    --page-grad-3a: #ddd9d0;
+    --page-grad-3b: #e4e0d8;
 
-    --fg: #071321;
-    --muted: rgba(7, 19, 33, 0.70);
+    --fg: #2a2520;
+    --muted: rgba(42, 37, 32, 0.62);
 
-    --card: rgba(7, 19, 33, 0.045);
-    --card2: rgba(7, 19, 33, 0.03);
-    --border: rgba(7, 19, 33, 0.14);
+    --card: rgba(42, 37, 32, 0.05);
+    --card2: rgba(42, 37, 32, 0.03);
+    --border: rgba(42, 37, 32, 0.10);
 
-    --shadow: 0 18px 55px rgba(7, 19, 33, 0.14);
+    --accent: #0d7eb5;
+    --accent2: #1a9e8f;
 
-    /* Keep good readability on top of bright photos in light mode */
-    --hero-radial: rgba(25, 167, 255, 0.12);
-    --hero-scrim-strong: rgba(7, 19, 33, 0.62);
-    --hero-scrim-soft: rgba(7, 19, 33, 0.14);
+    --shadow: 0 18px 55px rgba(42, 37, 32, 0.12);
+
+    /* Keep good readability on top of photos in light mode */
+    --hero-radial: rgba(25, 140, 200, 0.08);
+    --hero-scrim-strong: rgba(42, 37, 32, 0.70);
+    --hero-scrim-soft: rgba(42, 37, 32, 0.15);
     --hero-title-shadow: 0 10px 32px rgba(0, 0, 0, 0.35);
-    --hero-subtitle-shadow: 0 8px 22px rgba(0, 0, 0, 0.30);
+    --hero-subtitle-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
 
     /* Keep hero text readable on photos (don't switch to dark text on light theme) */
     --hero-fg: #f3fbff;
@@ -101,7 +104,7 @@ body {
 main { display: block; }
 
 .container {
-    width: min(var(--max), calc(100% - 32px));
+    width: min(var(--max), calc(100% - 24px));
     margin: 0 auto;
 }
 
@@ -343,20 +346,20 @@ a:where(:not(.btn)):hover {
 }
 
 .section {
-    padding: 56px 0;
+    padding: 32px 0;
 }
 
 @media (min-width: 820px) {
-    .section { padding: var(--s6) 0; }
+    .section { padding: var(--s5) 0; }
 }
 
 .sectionTitle {
     display: flex;
     align-items: center;
     gap: 14px;
-    margin: 0 0 var(--s2);
+    margin: 0 0 var(--s1);
 
-    padding: 12px 14px;
+    padding: 10px 12px;
     border-radius: 16px;
     border: 1px solid color-mix(in oklab, var(--border), transparent 20%);
     background:
@@ -397,9 +400,9 @@ a:where(:not(.btn)):hover {
     align-items: center;
     justify-content: space-between;
     gap: var(--s2);
-    margin-bottom: var(--s2);
+    margin-bottom: var(--s1);
 
-    padding: 12px 14px;
+    padding: 10px 12px;
     border-radius: 16px;
     border: 1px solid color-mix(in oklab, var(--border), transparent 20%);
     background:
@@ -491,8 +494,8 @@ a:where(:not(.btn)):hover {
 .cards {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: var(--s2);
-    margin-top: var(--s2);
+    gap: var(--s1);
+    margin-top: var(--s1);
 }
 
 @media (min-width: 820px) {
@@ -502,7 +505,7 @@ a:where(:not(.btn)):hover {
 /* Pricing Container */
 .pricing {
     width: 100%;
-    margin: var(--s3) auto 0;
+    margin: var(--s2) auto 0;
     display: flex;
     flex-direction: column;
 }
@@ -1107,15 +1110,15 @@ a:where(:not(.btn)):hover {
 .pricingGrid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: var(--s2);
-    margin-top: var(--s3);
+    gap: var(--s1);
+    margin-top: var(--s2);
     align-items: stretch;
 }
 
 @media (min-width: 640px) {
     .pricingGrid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: var(--s3);
+        gap: var(--s2);
     }
 }
 
@@ -1168,8 +1171,8 @@ a:where(:not(.btn)):hover {
     display: flex;
     flex-wrap: wrap;
     gap: var(--s2);
-    margin-top: var(--s3);
-    padding: var(--s2) var(--s3);
+    margin-top: var(--s2);
+    padding: var(--s1) var(--s2);
     border-radius: 14px;
     border: 1px solid var(--border);
     background: linear-gradient(180deg, var(--card), var(--card2));
@@ -1202,8 +1205,8 @@ a:where(:not(.btn)):hover {
 
 /* Disclaimer text */
 .disclaimer {
-    margin-top: var(--s3);
-    padding: var(--s2) var(--s3);
+    margin-top: var(--s2);
+    padding: var(--s1) var(--s2);
     border-radius: 14px;
     border: 1px solid color-mix(in oklab, var(--border), transparent 40%);
     background: color-mix(in oklab, var(--card), transparent 50%);

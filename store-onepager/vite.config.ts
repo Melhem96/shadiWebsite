@@ -45,7 +45,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
 
   const siteName = env.VITE_SITE_NAME || "FirstClassTvätt";
-  const emailPublic = env.VITE_EMAIL_PUBLIC || "info@store.se";
+  const emailPublic = env.VITE_EMAIL_PUBLIC || "firstklasswash@gmail.com";
   const phoneE164 = env.VITE_PHONE_E164 || "+46701234567";
   const addressLine = env.VITE_ADDRESS_LINE || "Gamla Flygplatsvägen 10, 423 37 Torslanda";
   const gmapsQ =
